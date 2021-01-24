@@ -1,4 +1,4 @@
-import jp.ac.uryukyu.ie.tnal.*;
+import jp.ac.uryukyu.ie.e205722.*;
 
 public class Main {
     public static void main(String[] args){
