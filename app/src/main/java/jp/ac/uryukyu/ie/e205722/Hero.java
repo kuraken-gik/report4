@@ -13,22 +13,49 @@ public class Hero {
     private int hitPoint;
     private int attack;
     private boolean dead;
-
+    
+     /**
+     * フィールドnameのgetterメソッド。
+     */
     public String getName() { return this.name; }
+    /**
+     * フィールドhitpointのgetterメソッド。
+     */
     public int getHitPoint() { return this.hitPoint; }
+    /**
+     * フィールドattackのgetterメソッド。
+     */
     public int getAttack() { return this.attack; }
+    /**
+     * フィールドdeadのgetterメソッド。
+     */
     public boolean getDead() { return  this.dead; }
 
+    /**
+     * フィールドnameのsettrメソッド。
+     * @param name フィールドnameに代入する。
+     */
     public void setName(String name){
         this.name = name;
     }
-
+    /**
+     * フィールドhitPointのsettrメソッド。
+     * @param hitpoint フィールドhitPointに代入する。
+     */
     public void setHitPoint(int hitpoint){
         this.hitPoint = hitPoint;
     }
+    /**
+     * フィールドattackのsettrメソッド。
+     * @param attack　フィールドattackに代入する。
+     */
     public void setAttack(int attack){
         this.attack = attack;
     }
+    /**
+     * フィールドdeadのsettrメソッド。
+     * @param dead　フィールドdeadに代入する。
+     */
     public void Dead(boolean dead){
         this.dead = dead;
     }

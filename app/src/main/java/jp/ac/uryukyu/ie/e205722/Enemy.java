@@ -9,21 +9,40 @@ public class Enemy {
     private int hitPoint;
     private int attack;
     private boolean dead;
-
+    
+    /**
+     * フィールドname,hitpoint,attack,deadのgetterメソッド。
+     */
     public String getName() { return this.name; }
     public int getHitPoint() { return this.hitPoint; }
     public int getAttack() { return this.attack; }
     public boolean getDead() { return  this.dead; }
-
+    
+    /**
+     * フィールドnameのsettrメソッド。
+     * @param name フィールドnameに代入する。
+     */
     public void setName(String name){
         this.name = name;
     }
+    /**
+     * フィールドhitPointのsettrメソッド。
+     * @param hitpoint フィールドhitPointに代入する。
+     */
     public void setHitPoint(int hitpoint){
         this.hitPoint = hitPoint;
     }
+    /**
+     * フィールドattackのsettrメソッド。
+     * @param attack　フィールドattackに代入する。
+     */
     public void setAttack(int attack){
         this.attack = attack;
     }
+    /**
+     * フィールドdeadのsettrメソッド。
+     * @param dead　フィールドdeadに代入する。
+     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
